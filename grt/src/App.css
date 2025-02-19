@@ -1,0 +1,75 @@
+.App {
+  /* background-color: black; */
+  .header {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .element {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .grt-our-story {
+    max-width: 100%;
+    width: 100%;
+    padding: 4.428% 5.014%;
+    /* margin-bottom: 20px; */
+    .grt-cont {
+      margin-bottom: 20px;
+    }
+    .our {
+      font-family: Kantumruy, sans-serif;
+      letter-spacing: 0;
+      color: #8d99ae;
+      text-decoration: auto;
+      font-size: clamp(25px, 3.255vw, 50px);
+      line-height: clamp(25px, 3.255vw, 50px);
+      margin: 0px;
+    }
+    .story {
+      display: block;
+      padding-left: 5%;
+      color: #c1282f;
+      font-family: serif;
+      /* font-size: clamp(15px, 1.563vw, 24px); */
+      font-weight: 400;
+      line-height: clamp(25px, 3.256vw, 50px);
+      margin-top: -5px;
+    }
+
+    .grt-story {
+      display: flex;
+      flex-direction: row;
+
+      .grt-story-text {
+        width: 35%;
+        padding-left: 20px;
+      }
+
+      .grt-hotel-img {
+        width: 50%;
+        .img {
+          height: 589px;
+          width: 824px;
+        }
+      }
+    }
+  }
+
+  .footer{
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    h3{
+      margin: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+.text{
+  margin-top: 100px;
+  padding-left: 100px;
+}
+}

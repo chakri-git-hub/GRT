@@ -1,0 +1,21 @@
+.header {
+    background: #282c34;
+    padding: 15px;
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    li {
+      display: inline;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  
